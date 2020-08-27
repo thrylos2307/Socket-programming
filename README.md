@@ -14,3 +14,16 @@ Server program [Server.c](https://github.com/thrylos2307/Socket-programming/blob
 
 ### Multiclient:
 Server program [Server.c](https://github.com/thrylos2307/Socket-programming/blob/master/multiclient/server.c) is a multi-process server that forks a process whenever it receives a new client request. Multiple server will be able to chat with the server concurrently.  An  client program is in [client.c](https://github.com/thrylos2307/Socket-programming/blob/master/multiclient/client.c)
+
+
+#### Running Program:
+First start the server then client can be connected....
+* Server: 
+-> gcc server.c -o server
+->./server [port no.]
+
+* Client:
+-> gcc client.c -o client
+-> ./client 127.0.0.0 [port no.]
+
+Note: port number for client and should be same.
