@@ -10,7 +10,7 @@ This is a simple client-server model where a client program can chat with a dumm
 
 
 ### Singleclient:
-Server program `[Server.c](https://github.com/thrylos2307/Socket-programming/blob/master/singleclient/server.c)` is a single process server that can handle only one client at a time. An  client program is in `client.c`
+Server program [Server.c](https://github.com/thrylos2307/Socket-programming/blob/master/singleclient/server.c) is a single process server that can handle only one client at a time. An  client program is in `client.c`
 
 ### Multiclient:
 Server program `Server.c` is a multi-process server that forks a process whenever it receives a new client request. Multiple server will be able to chat with the server concurrently.  An  client program is in `client.c`
