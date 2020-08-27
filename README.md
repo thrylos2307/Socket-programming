@@ -19,11 +19,11 @@ Server program [Server.c](https://github.com/thrylos2307/Socket-programming/blob
 #### Running Program:
 First start the server then client can be connected....
 * Server: 
--> gcc server.c -o server
+-> gcc server.c -o server <br>
 ->./server [port no.]
 
 * Client:
--> gcc client.c -o client
+-> gcc client.c -o client<br>
 -> ./client 127.0.0.0 [port no.]
 
 Note: port number for client and should be same.
