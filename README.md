@@ -26,4 +26,4 @@ First start the server then client can be connected....
 -> gcc client.c -o client<br>
 -> ./client 127.0.0.0 [port no.]
 
-Note: port number for client and should be same.
+Note: port number for client and server should be same.
